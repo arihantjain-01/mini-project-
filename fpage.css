@@ -27,113 +27,120 @@ a.yes:hover{
 
 }*/
 .navbar{
-background-color: pink;
-height: 60px;
-border: 3px solid black;
-color: black;
-font-size: 50px;
-}
-#brand{
-color: green;
-background-color: black;
-font-size: 50px;
-margin-left: 25px;
-border-radius: 20px;
-}
-#navitems{
-list-style:none;
-float: right;
-display: flex;
-margin: 10px;
-position:relative
-
-}
-#navitems li{
-margin: 15px;
-display: inline;
-font-size: 30px;
-text-align: center;
-}
-#navitems li a
-{
-text-decoration: none;
-color: purple;
-font-style: inherit;
-
-}
-#navitems li a:hover
-{
-background-color: aqua;
-cursor: pointer;
-
-}
-#navitems li a:active
-{
-    cursor: progress;
-}
-
-.intro{
-    text-decoration: none;
-    text-align: center;
-    font-size:25px;
+    background-color:rgb(217, 191, 220);
+    width: 1507.200px;
+    height: 61.09px;
+    border-bottom: 1px solid black;
     color: black;
-    background-color: rgba(217, 191, 220, 0.59);
-    font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-}
-.intro:hover{
-   
-    color:rgb(51, 0, 60);
+    /* font-size: 50px; */
+    }
+    #brand{
+    color: rgb(5, 170, 5);
+    background-color: black;
+    font-size: 50px;
+    margin-left: 10px;
+    border-radius: 20px;
+    }
+    #navitems{
+        padding-top: 5px;
+    list-style:none;
+    float: right;
+    display: flex;
+    margin: 10px;
+    position:relative;
     
-}
-.couse{
+    }
+    #navitems li{
+    
+    margin-bottom: 11px;
+    display: inline;
+    font-size: x-large;
     text-align: center;
-}
-.couse a{
-    text-decoration: none;
-    font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-    font-size: larger;
-    padding-left: 130px;
-    padding-top: 10px;
-    padding-bottom: 10px;
-    padding-right: 130px;
-    background-color: black;
-    color: white;
-}
-a.css{
-    padding-left: 150px;
-    padding-right: 150px;
-}
-.couse a:hover{
-    text-decoration: none;
-    font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-    font-size: larger;
-    padding-left: 130px;
-    padding-top: 10px;
-    padding-bottom: 10px;
-    padding-right: 130px;
-    background-color: black;
-    color:  rgb(235, 198, 15);
-}
-a.css:hover{
-    padding-left: 150px;
-    padding-right: 150px;
-}
-.about{
-    font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-
-    text-align: center;
-}
-body{
-    background-image: url("busy-project-manager-overwhelmed-by-work (1).jpg");
-}
-.mail{
+    }
+    #navitems li a
+    {   
+        padding-left: 10px;
+    padding-right: 10px;
     text-decoration: none;
     color: black;
-}
-.mail:hover{
-    color:black;
-    font-weight: bold;
-    padding: 8px;
-    background-color: #25b5f7;
-    border-radius: 5px;
-}
+    font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    
+    }
+    #navitems li a:hover
+    {
+        padding: 10px;
+        border-radius:25px;
+        background-color: #6dd0fe;
+        color: white;
+    
+    }
+    #navitems li a:active
+    {
+        cursor: progress;
+    }
+    
+    .intro{
+        text-decoration: none;
+        text-align: center;
+        font-size:25px;
+        color: black;
+        background-color: rgba(217, 191, 220, 0.59);
+        font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    }
+    .intro:hover{
+       
+        color:rgb(51, 0, 60);
+        
+    }
+    .couse{
+        text-align: center;
+    }
+    .couse a{
+        text-decoration: none;
+        font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+        font-size: larger;
+        padding-left: 130px;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        padding-right: 130px;
+        background-color: black;
+        color: white;
+    }
+    a.css{
+        padding-left: 150px;
+        padding-right: 150px;
+    }
+    .couse a:hover{
+        text-decoration: none;
+        font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+        font-size: larger;
+        padding-left: 130px;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        padding-right: 130px;
+        background-color: black;
+        color:  rgb(235, 198, 15);
+    }
+    a.css:hover{
+        padding-left: 150px;
+        padding-right: 150px;
+    }
+    .about{
+        font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    
+        text-align: center;
+    }
+    body{
+        background-image: url("busy-project-manager-overwhelmed-by-work (1).jpg");
+    }
+    .mail{
+        text-decoration: none;
+        color: black;
+    }
+    .mail:hover{
+        color:black;
+        font-weight: bold;
+        padding: 8px;
+        background-color: #25b5f7;
+        border-radius: 5px;
+    }
