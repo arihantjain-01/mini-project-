@@ -1,4 +1,4 @@
-.nav{
+/*.nav{
     background-color: rgb(217, 191, 220);
 }
 header{
@@ -25,7 +25,53 @@ a.yes:hover{
     background-color: #6dd0fe;
     color: white;
 
+}*/
+.navbar{
+background-color: pink;
+height: 60px;
+border: 3px solid black;
+color: black;
+font-size: 50px;
 }
+#brand{
+color: green;
+background-color: black;
+font-size: 50px;
+margin-left: 25px;
+border-radius: 20px;
+}
+#navitems{
+list-style:none;
+float: right;
+display: flex;
+margin: 10px;
+position:relative
+
+}
+#navitems li{
+margin: 15px;
+display: inline;
+font-size: 30px;
+text-align: center;
+}
+#navitems li a
+{
+text-decoration: none;
+color: purple;
+font-style: inherit;
+
+}
+#navitems li a:hover
+{
+background-color: aqua;
+cursor: pointer;
+
+}
+#navitems li a:active
+{
+    cursor: progress;
+}
+
 .intro{
     text-decoration: none;
     text-align: center;
