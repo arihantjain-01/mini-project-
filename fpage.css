@@ -1,38 +1,11 @@
-/*.nav{
-    background-color: rgb(217, 191, 220);
-}
-header{
-    position: sticky;
-    top:0px;
-}
-.nav a img {
-    padding-left: 10px;
-    padding-top: 3px;
-}
-.yes{
-    float:right;
-    text-decoration: none;
-    color: black;
-   font-size:x-large;
-    padding: 10px;
-}
-.nav .yes {
-    margin-top: 7px;
-}
-a.yes:hover{
-    padding: 10px;
-    border-radius:50px;
-    background-color: #6dd0fe;
-    color: white;
-
-}*/
 .navbar{
     background-color:rgb(217, 191, 220);
     width: 1507.200px;
     height: 61.09px;
     border-bottom: 1px solid black;
     color: black;
-    /* font-size: 50px; */
+    position: sticky;
+    top:0px;
     }
     #brand{
     color: rgb(5, 170, 5);
