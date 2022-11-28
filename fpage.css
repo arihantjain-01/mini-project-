@@ -182,11 +182,12 @@
             }
 
         }
- #htmlhead{
-font-size: 80px;
+#htmlhead{
+text-align: center;
+font-size: 4vw;
 background-color: black;
 color: white;
-margin-left: 200px;
+margin-left: 30%;
 }
 #htmllink li a{
 text-decoration: none;
