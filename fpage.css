@@ -182,4 +182,27 @@
             }
 
         }
-        
+        #htmlhead{
+text-align: center;
+font-size: 80px;
+background-color: black;
+color: white;
+margin-left: 300px;
+}
+#htmllink li a{
+text-decoration: none;
+line-height: 56px;
+font-size: 20px;
+color: green;
+}
+
+#htmllink li a:hover
+{
+
+background-color:palevioletred;
+cursor: pointer;
+}
+#htmllink li a:active{
+
+    cursor: progress;
+}
