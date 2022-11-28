@@ -1,11 +1,11 @@
 .navbar{
     background-color:rgb(217, 191, 220);
-    width: 1507.200px;
-    height: 61.09px;
+    overflow: hidden;
     border-bottom: 1px solid black;
     color: black;
     position: sticky;
     top:0px;
+    
     }
     #brand{
     color: rgb(5, 170, 5);
@@ -21,17 +21,18 @@
     display: flex;
     margin: 10px;
     position:relative;
-    
     }
     #navitems li{
-    
-    margin-bottom: 11px;
     display: inline;
+    line-height: 35px;
     font-size: x-large;
     text-align: center;
     }
+    #img{
+        display:none;
+    }
     #navitems li a
-    {   
+    {   background-color: #eeeeee00;
         padding-left: 10px;
     padding-right: 10px;
     text-decoration: none;
@@ -65,24 +66,25 @@
         color:rgb(51, 0, 60);
         
     }
+    .couse .js{
+        display: none;
+    }
     .couse{
+        overflow-x: scroll;
         text-align: center;
     }
     .couse a{
         text-decoration: none;
         font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
         font-size: larger;
-        padding-left: 130px;
+        padding-left: 100px;
         padding-top: 10px;
         padding-bottom: 10px;
-        padding-right: 130px;
+        padding-right: 100px;
         background-color: black;
         color: white;
     }
-    a.css{
-        padding-left: 150px;
-        padding-right: 150px;
-    }
+    
     .couse a:hover{
         text-decoration: none;
         font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
@@ -94,17 +96,16 @@
         background-color: black;
         color:  rgb(235, 198, 15);
     }
-    a.css:hover{
-        padding-left: 150px;
-        padding-right: 150px;
-    }
+    
     .about{
         font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     
         text-align: center;
     }
-    body{
-        background-image: url("busy-project-manager-overwhelmed-by-work (1).jpg");
+    #body{
+        background-image: url("busy-project-manager-overwhelmed-by-work (1).jpg") ;
+
+        overflow-x:hidden;        
     }
     .mail{
         text-decoration: none;
@@ -117,3 +118,73 @@
         background-color: #25b5f7;
         border-radius: 5px;
     }
+    #img2{
+        width:"540px";
+        overflow: hidden;
+    }
+    #bar{
+        font-size: x-large;
+        font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    }
+    #brand1{
+        font-size:45px;
+        font-family: Garamond;
+        color:rgb(98, 0, 115); 
+    }
+    @media  all and (max-width:715px) and (min-width:0px){
+       #brand {
+            font-size:23px; 
+        }
+        #brand1{
+            font-size:23px; 
+        }
+        #navitems li{
+            
+            display:none;
+        }
+        #navitems{
+            margin:0px;
+            padding:0px;
+        }
+        #bar{
+            display: none;
+        }
+        #img {
+           margin: 2px;
+            list-style:none;
+            float: right;
+            display: flex;
+            margin-left: 10px;
+            position:relative;
+            display: inline; line-height: 0.2px;
+        }
+        #img li{
+            
+            display: inline;
+           
+        }
+    }
+        @media  all and (max-width:540px) and (min-width:315px){
+            .intro{
+                font-size:20px;
+            }
+           #img2 {
+                width:345px;
+           }
+        }
+        @media  all and (max-width:315px) and (min-width:0px){
+            .intro{
+                font-size:15px;
+            }
+            #img2{
+                display: none;
+            }
+            .couse .javascript{
+                display: none;
+            }
+            .couse .js{
+                display: inline;
+            }
+
+        }
+        
